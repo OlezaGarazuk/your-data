@@ -8,3 +8,6 @@ from threading import Lock
 
 with open("vectorstore.pkl", "rb") as f:
     vectorstore = pickle.load(f)
+
+
+def set_openai_api_key(api_key: str):
