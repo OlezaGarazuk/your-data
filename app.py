@@ -14,3 +14,4 @@ def set_openai_api_key(api_key: str):
     """Set the api key and return chain.
    If no api_key, then None is returned.
     """
+    if api_key:
