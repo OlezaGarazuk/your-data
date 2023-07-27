@@ -15,3 +15,4 @@ def set_openai_api_key(api_key: str):
    If no api_key, then None is returned.
     """
     if api_key:
+        os.environ["OPENAI_API_KEY"] = api_key
