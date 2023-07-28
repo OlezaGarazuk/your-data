@@ -16,3 +16,4 @@ def set_openai_api_key(api_key: str):
     """
     if api_key:
         os.environ["OPENAI_API_KEY"] = api_key
+        chain = get_chain(vectorstore)
