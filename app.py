@@ -20,3 +20,5 @@ def set_openai_api_key(api_key: str):
         os.environ["OPENAI_API_KEY"] = ""
         return chain
     ):
+
+class ChatWrapper:
