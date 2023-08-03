@@ -24,3 +24,4 @@ def set_openai_api_key(api_key: str):
 class ChatWrapper:
 
     def __init__(self):
+        self.lock = Lock()
