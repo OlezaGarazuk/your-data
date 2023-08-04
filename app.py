@@ -25,3 +25,4 @@ class ChatWrapper:
 
     def __init__(self):
         self.lock = Lock()
+    def __call__(
