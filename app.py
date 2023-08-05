@@ -26,3 +26,4 @@ class ChatWrapper:
     def __init__(self):
         self.lock = Lock()
     def __call__(
+        self, api_key: str, inp: str, history: Optional[Tuple[str, str]], chain
