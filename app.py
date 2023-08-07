@@ -28,3 +28,4 @@ class ChatWrapper:
     def __call__(
         self, api_key: str, inp: str, history: Optional[Tuple[str, str]], chain
     ):
+        """Execute the chat functionality."""
