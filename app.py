@@ -31,3 +31,4 @@ class ChatWrapper:
         """Execute the chat functionality."""
         self.lock.acquire()
         try:
+            history = history or []
