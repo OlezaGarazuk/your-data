@@ -32,3 +32,4 @@ class ChatWrapper:
         self.lock.acquire()
         try:
             history = history or []
+            # If chain is None, that is because no API key was provided.
