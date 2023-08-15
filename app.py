@@ -34,3 +34,4 @@ class ChatWrapper:
             history = history or []
             # If chain is None, that is because no API key was provided.
             if chain is None:
+                history.append((inp, "Please paste your OpenAI key to use"))
