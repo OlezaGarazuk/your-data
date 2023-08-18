@@ -36,3 +36,4 @@ class ChatWrapper:
             if chain is None:
                 history.append((inp, "Please paste your OpenAI key to use"))
                 return history, history
+            # Set OpenAI key
