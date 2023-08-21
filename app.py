@@ -37,3 +37,4 @@ class ChatWrapper:
                 history.append((inp, "Please paste your OpenAI key to use"))
                 return history, history
             # Set OpenAI key
+            import openai
