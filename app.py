@@ -38,3 +38,4 @@ class ChatWrapper:
                 return history, history
             # Set OpenAI key
             import openai
+            openai.api_key = api_key
