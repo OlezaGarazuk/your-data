@@ -39,3 +39,4 @@ class ChatWrapper:
             # Set OpenAI key
             import openai
             openai.api_key = api_key
+            # Run chain and append input.
