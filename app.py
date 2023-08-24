@@ -40,3 +40,4 @@ class ChatWrapper:
             import openai
             openai.api_key = api_key
             # Run chain and append input.
+            output = chain({"question": inp, "chat_history": history})["answer"]
