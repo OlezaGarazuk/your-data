@@ -42,3 +42,4 @@ class ChatWrapper:
             # Run chain and append input.
             output = chain({"question": inp, "chat_history": history})["answer"]
             history.append((inp, output))
+        except Exception as e:
