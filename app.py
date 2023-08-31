@@ -44,3 +44,4 @@ class ChatWrapper:
             history.append((inp, output))
         except Exception as e:
             raise e
+        finally:
