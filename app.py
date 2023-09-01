@@ -45,3 +45,4 @@ class ChatWrapper:
         except Exception as e:
             raise e
         finally:
+            self.lock.release()
