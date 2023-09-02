@@ -46,3 +46,4 @@ class ChatWrapper:
             raise e
         finally:
             self.lock.release()
+        return history, history
