@@ -47,3 +47,5 @@ class ChatWrapper:
         finally:
             self.lock.release()
         return history, history
+
+chat = ChatWrapper()
