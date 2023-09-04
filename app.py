@@ -49,3 +49,5 @@ class ChatWrapper:
         return history, history
 
 chat = ChatWrapper()
+
+block = gr.Blocks(css=".gradio-container {background-color: lightgray}")
