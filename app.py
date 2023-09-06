@@ -53,3 +53,4 @@ chat = ChatWrapper()
 block = gr.Blocks(css=".gradio-container {background-color: lightgray}")
 
 with block:
+    with gr.Row():
