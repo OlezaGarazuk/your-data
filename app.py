@@ -57,3 +57,4 @@ with block:
         gr.Markdown("<h3><center>Chat-Your-Data (State-of-the-Union)</center></h3>")
 
         openai_api_key_textbox = gr.Textbox(
+            placeholder="Paste your OpenAI API key (sk-...)",
