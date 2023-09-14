@@ -59,3 +59,4 @@ with block:
         openai_api_key_textbox = gr.Textbox(
             placeholder="Paste your OpenAI API key (sk-...)",
             show_label=False,
+            lines=1,
