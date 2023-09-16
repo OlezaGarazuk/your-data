@@ -61,3 +61,4 @@ with block:
             show_label=False,
             lines=1,
             type="password",
+        )
