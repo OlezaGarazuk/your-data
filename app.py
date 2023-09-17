@@ -62,3 +62,5 @@ with block:
             lines=1,
             type="password",
         )
+
+    chatbot = gr.Chatbot()
