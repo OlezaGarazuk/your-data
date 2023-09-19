@@ -66,3 +66,4 @@ with block:
     chatbot = gr.Chatbot()
 
     with gr.Row():
+        message = gr.Textbox(
