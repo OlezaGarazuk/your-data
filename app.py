@@ -67,3 +67,4 @@ with block:
 
     with gr.Row():
         message = gr.Textbox(
+            label="What's your question?",
