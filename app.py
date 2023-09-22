@@ -69,3 +69,4 @@ with block:
         message = gr.Textbox(
             label="What's your question?",
             placeholder="Ask questions about the most recent state of the union",
+            lines=1,
