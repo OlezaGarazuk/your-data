@@ -71,3 +71,4 @@ with block:
             placeholder="Ask questions about the most recent state of the union",
             lines=1,
         )
+        submit = gr.Button(value="Send", variant="secondary").style(full_width=False)
