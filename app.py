@@ -72,3 +72,5 @@ with block:
             lines=1,
         )
         submit = gr.Button(value="Send", variant="secondary").style(full_width=False)
+
+    gr.Examples(
