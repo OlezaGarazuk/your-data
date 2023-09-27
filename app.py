@@ -75,3 +75,4 @@ with block:
 
     gr.Examples(
         examples=[
+            "What did the president say about Kentaji Brown Jackson",
