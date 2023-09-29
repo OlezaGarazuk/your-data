@@ -77,3 +77,4 @@ with block:
         examples=[
             "What did the president say about Kentaji Brown Jackson",
             "Did he mention Stephen Breyer?",
+            "What was his stance on Ukraine",
