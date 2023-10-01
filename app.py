@@ -79,3 +79,4 @@ with block:
             "Did he mention Stephen Breyer?",
             "What was his stance on Ukraine",
         ],
+        inputs=message,
