@@ -80,3 +80,4 @@ with block:
             "What was his stance on Ukraine",
         ],
         inputs=message,
+    )
