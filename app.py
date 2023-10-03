@@ -81,3 +81,5 @@ with block:
         ],
         inputs=message,
     )
+
+    gr.HTML("Demo application of a LangChain chain.")
