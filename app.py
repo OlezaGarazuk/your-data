@@ -89,3 +89,4 @@ with block:
     )
 
     state = gr.State()
+    agent_state = gr.State()
