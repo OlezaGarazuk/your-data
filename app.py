@@ -95,3 +95,4 @@ with block:
     message.submit(chat, inputs=[openai_api_key_textbox, message, state, agent_state], outputs=[chatbot, state])
 
     openai_api_key_textbox.change(
+        set_openai_api_key,
