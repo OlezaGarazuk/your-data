@@ -98,3 +98,4 @@ with block:
         set_openai_api_key,
         inputs=[openai_api_key_textbox],
         outputs=[agent_state],
+    )
