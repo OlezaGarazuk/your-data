@@ -99,3 +99,5 @@ with block:
         inputs=[openai_api_key_textbox],
         outputs=[agent_state],
     )
+
+block.launch(debug=True)
